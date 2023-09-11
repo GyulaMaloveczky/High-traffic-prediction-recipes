@@ -44,17 +44,21 @@ This documentation details the validation and preprocessing applied to a recipes
 ## Initial Data Analysis
 
 - **Target Variable**: Noted slight class imbalance; to be addressed during train-test split
+
 ![image](https://github.com/GyulaMaloveczky/High-traffic-prediction-recipes/assets/117769460/da6f05a5-fc66-40a5-b28c-1934966d4f00)
 
 - **Numerical Variables**: Displayed log-normal distribution; unchanged for model utilization
 - **Categorical Variables**: 
   - Noted frequency of recipes with 4 servings
+
 ![image](https://github.com/GyulaMaloveczky/High-traffic-prediction-recipes/assets/117769460/f99d556e-0503-4678-9c8f-c281ba77c942)
 
   - Predominance of 'Chicken' category
+
 ![image](https://github.com/GyulaMaloveczky/High-traffic-prediction-recipes/assets/117769460/0a663c45-1cee-4a2c-86f8-12773efaad04)
 
 - **Traffic Insights**: Beverages rarely yielded high traffic. Vegetables, potato, and pork typically did.
+
 ![image](https://github.com/GyulaMaloveczky/High-traffic-prediction-recipes/assets/117769460/aff6e826-9e55-47af-bf4f-13dbe020296b)
 
 
@@ -69,7 +73,7 @@ This documentation details the validation and preprocessing applied to a recipes
   - Scaled numerical features
   - Addressed class imbalance during train-test split
 - **Performance Evaluation**: Decision Tree showcased superior precision, achieving the 80% KPI target
--ROC of decision tree:
+- ROC of decision tree:
 ![image](https://github.com/GyulaMaloveczky/High-traffic-prediction-recipes/assets/117769460/393939dd-f2a0-40f0-89d9-6a16ce5f7d30)
 
 
